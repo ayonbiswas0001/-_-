@@ -46,4 +46,4 @@ figure = px.sunburst(unemploment, path=["Region", "States"],
                      values="Estimated Unemployment Rate", 
                      width=500, height=500, color_continuous_scale="RdY1Gn", 
                      title="Unemployment Rate in India")
-figure.show()
+figure.show() 
