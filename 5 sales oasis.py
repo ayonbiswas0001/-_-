@@ -30,7 +30,7 @@ from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
 regressor.fit(X_train, y_train)
 y_pred = regressor.predict(X_test)
-y_pred
+y_pred 
 sale = regressor.predict([[44.5,39.3,45.1]])
 print(sale)
 print("Score",regressor.score(X_test, y_test))
