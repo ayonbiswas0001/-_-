@@ -3,7 +3,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from warnings import filterwarnings
-filterwarnings(action='ignore')
+filterwarnings(action='ignore') 
 iris=pd.read_csv("iris.csv")
 print(iris)
 print(iris.shape)
