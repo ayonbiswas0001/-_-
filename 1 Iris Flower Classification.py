@@ -50,7 +50,6 @@ sns.violinplot(x='Species',y='SepalWidthCm',data=iris)
 sns.pairplot(iris,hue='Species');
 
 
-
 X = iris['SepalLengthCm'].values.reshape(-1,1)
 print(X)
 
